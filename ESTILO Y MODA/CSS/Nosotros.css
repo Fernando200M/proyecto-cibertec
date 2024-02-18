@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: "Poppins" , sans-serif ;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+h1 {font-size: 3.5em;}
+p {font-size: 1.25em;}
+
+.container {
+    max-width: 1400px;
+}
+
+#Historia-jpg {
+  text-align: right; /* Centra la imagen a la derecha */
+  border-radius: 8px;
+  width: 200px;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#Mision-jpg {
+    text-align: right; /* Centra la imagen a la derecha */
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
+}
+#Vision-jpg {
+    text-align: right; /* Centra la imagen a la derecha */
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   
+}
+
+div {
+    display: grid;
+}
+
+
