@@ -1,4 +1,13 @@
- #carouselExampleIndicators{
-    width: 50%;
-    height: 50%;
+img{
+   height: 500px;
+ }
+
+ iframe{
+   width: 430px;
+   border-radius: 20px;
+ }
+
+ .carousel-caption{
+   color: black;
+   font-size: 32pt;
  }
