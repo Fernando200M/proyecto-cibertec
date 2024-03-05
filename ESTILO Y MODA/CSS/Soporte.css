@@ -1,0 +1,8 @@
+form#soporte{
+    width: 50%;
+    margin: 10px;
+}
+
+textarea{
+    height: 200px;
+}

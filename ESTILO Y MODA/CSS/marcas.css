@@ -1,0 +1,40 @@
+#popular .container {
+    text-align: left;
+}
+
+.subtitulo {
+    font-size: 20px;
+}
+.container{
+    /* display: flex; /* Utilizamos flexbox para alinear las imagenes en una fila
+    justify-content: space-betwe; /* Distribuye el espacio entre las imágenes
+    align-items: flex-start; */
+
+    display: flex;
+    justify-content: space-betwe;
+}
+
+.image-container{
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+}
+.description{
+    margin-top: 10px;
+}
+.buy-button {
+    margin-top: 10px;
+}
+#container-zara{
+    display: flex;
+    justify-content: space-betwe;
+}
+.image-container-zara{
+    text-align: center;
+    margin-right: 20px;
+    float: left;   
+}
+img {
+    width: 500px;
+    height: 550px;
+}

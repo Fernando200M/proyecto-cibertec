@@ -55,3 +55,23 @@ img {
     background-color: #ff5a2c;
     margin-right: 0;
 }
+
+h1 {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Aplica estilos al elemento que desees (en este ejemplo, estoy usando el selector body) */
+
+    /* Establece la fuente Poppins */
+    font-family: 'Poppins', sans-serif;
+
+    /* Establece el tamaño de fuente al doble del tamaño normal */
+    font-size: 2em;
+
+    /* Establece el color del texto a negro */
+    color: black;
+
+    /* Subrayado doble */
+    text-decoration: underline double;
+    text-align: center center;
+
+}

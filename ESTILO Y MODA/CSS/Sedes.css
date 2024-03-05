@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: "Poppins" , sans-serif ;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu .navbar ul ol {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul ol a {
+    font-size: 18px;
+    padding: 20px;
+    color: black;
+    display: block;
+    font-weight: 600;
+}
+
+.header-txt{
+    text-align: center;
+}
+
+.header-txt h1 {
+    font-size: 80px;
+    
+}
+
+.container1{
+    background-image: url(../IMAGENES/chorrillos-tierra-maravillas-0ce633cd2f636c6216cc69472b475294.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 95px;
+}
+
+.container2{
+    background-image: url(../IMAGENES/lince-larepublica.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 95px;
+}
+
+.container3{
+    background-image: url(../IMAGENES/Los\ Olivos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 95px;
+}
+
+footer{
+    background-color: gray;
+    display: flex;
+}
+
+p#text1{
+    width: 90%;
+    margin: 30px 20px 30px 20px;
+    color: white;
+}
+
+footer img{
+    margin: 10px;
+    float: right;
+}
+div#img{
+    padding: 10px;
+ }
